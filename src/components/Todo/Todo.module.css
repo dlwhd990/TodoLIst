@@ -1,0 +1,28 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 0 5px lightgray;
+}
+
+.input_form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  outline: none;
+}
+
+.input_form input {
+  width: 80%;
+}
+
+.input_form button {
+  width: 20%;
+}
